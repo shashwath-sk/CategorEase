@@ -1,0 +1,19 @@
+.filter-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 2px solid #b6b6b6; */
+    /* border-radius: 7%; */
+    height: 30px;
+    width: 500px;
+}
+
+.filter-container >input{
+    /* width: 500px; */
+    font-size: 18px;
+    padding: 5px;
+    background-color: inherit;
+    color: white;
+    border: none;
+    outline: none;
+}

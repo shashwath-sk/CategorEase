@@ -1,0 +1,42 @@
+.autocomplete {
+    position: absolute;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  
+  input {
+    padding: 8px;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    /* width: 100%; */
+  }
+  
+  .suggestion-list {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 200px;
+    bottom: 40px;
+  }
+
+  .downwards{
+    bottom: 0px!important;
+    top: 40px!important;
+  }
+  
+  .suggestion-list li {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    font-size: large;
+  }
+  
+  
